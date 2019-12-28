@@ -12,7 +12,7 @@ html {
   box-sizing: border-box;
 }
 body {
-  background-color: #f18c8e;
+  background-color: #f0b7a4;
   font-family: "Inter", sans-serif;
   letter-spacing: 0.02rem;
   line-height: 1.3rem;
@@ -39,9 +39,14 @@ span {
   font-weight: 700;
   /* text-decoration: underline; */
 }
+.alert {
+  text-decoration: underline;
+  cursor: pointer;
+}
 span:hover {
   color: #f18c8e;
 }
+
 .num-container {
   display: flex;
   align-items: center;
